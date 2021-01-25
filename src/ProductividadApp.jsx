@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
+import AppRouter from "./routers/AppRouter";
 
 const ProductividadApp = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <AppRouter />
+  );
+};
 
-export default ProductividadApp
+export default ProductividadApp;
